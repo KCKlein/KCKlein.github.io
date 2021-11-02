@@ -1,21 +1,35 @@
 body {
-    background-color:midnightblue;
+    background-color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .assignment {
     display: flex;
-    padding: 10px; 
-    background: cornflowerblue;
+    padding: 10px;
     margin: 10px;
+    background: Lavender;
+    border-radius: 50px;
 }
 
 .assignment img {
     width: 200px;
-    padding: 10px;
+    margin: 10px;
+    border: 4px solid Lavender;
+}
+
+.assignment img:hover {
+border: 4px solid Indigo;
 }
 
 h1 {
-    color: gold;
+    color: MediumAquaMarine;
     text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: HotPink;
+}
+a:hover {
+    color: Indigo;
 }
